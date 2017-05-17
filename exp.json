@@ -1,17 +1,28 @@
 {
   "name": "firebase-sample",
-  "description": "An empty new project",
+  "description": "Firebase sample",
   "slug": "firebase-sample",
   "privacy": "public",
   "sdkVersion": "16.0.0",
   "version": "1.0.0",
   "orientation": "portrait",
   "primaryColor": "#cccccc",
-  "icon": "./assets/icons/app.png",
-  "loading": {
-    "icon": "./assets/icons/loading.png",
-    "hideExponentText": false
+  "icon": "http://i.imgur.com/5NOt0wv.png",
+  "notification": {
+    "icon": "http://i.imgur.com/5NOt0wv.png",
+    "color": "#000000",
+    "androidMode": "default",
+    "androidCollapsedTitle": "#{unread_notifications} new interactions"
   },
+  "loading": {
+    "icon": "https://s13.postimg.org/wflosfalj/logo.png",
+    "backgroundImage": "http://i.imgur.com/zsnPy5z.png",
+    "backgroundColor": "#FFF",
+    "hideExponentText": true
+  },
+  "appKey": "main",
+  "androidStatusBarColor": "#000000",
+  "androidShowExponentNotificationInShellApp": false,
   "packagerOpts": {
     "assetExts": ["ttf", "mp4"]
   },
