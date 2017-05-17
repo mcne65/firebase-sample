@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="http://i.imgur.com/5NOt0wv.png">
+  <img src="http://i.imgur.com/oiRVNnJ.png">
 </p>
 
 <p align='center'>
