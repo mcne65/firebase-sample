@@ -45,7 +45,7 @@ class App extends React.Component {
 
   getTodos() {
     this.firebaseRef.on('value', (snapshot) => {
-      const todos = snapshot.val();
+      const todos = snapshot.val() || [];
 
       this.setState({
         todos,
@@ -77,6 +77,9 @@ class App extends React.Component {
 
   renderTodos() {
     const { todos } = this.state;
+    if (todos.length === 0) {
+      return <Text>No Todos Yet. Add your first one!</Text>
+    }
 
     return todos.map((todo, index) => (
       <Text
